@@ -1,0 +1,22 @@
+{
+    "name": "venta/collection",
+    "description": "Venta Framework Profiler package",
+    "authors": [
+        {
+            "name": "Konstantins Zukovs",
+            "email": "kz@scandiweb.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Venta\\Collection\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "5.2"
+    },
+    "require": {
+        "php-ds/php-ds": "dev-master"
+    }
+}
